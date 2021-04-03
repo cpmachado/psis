@@ -47,11 +47,11 @@ int main() {
     }
 
     /* declare pointers to functions */
-    void (*func_1p)(void);
-    void (*func_2p)(void);
+    void (*func_1)(void);
+    void (*func_2)(void);
 
     /*load func_1 from loaded library */
-    func_1p = (void (*)())dlsym(handle, "func_1");
+    func_1 = (void (*)())dlsym(handle, "func_1");
 
     if ((error = dlerror())) {
         fprintf(stderr, "main: %s", error);
@@ -59,17 +59,17 @@ int main() {
     }
 
     /*load func_2 from loaded library */
-    func_2p = (void (*)())dlsym(handle, "func_2");
+    func_2 = (void (*)())dlsym(handle, "func_2");
     if ((error = dlerror())) {
         fprintf(stderr, "main: %s", error);
         exit(EXIT_FAILURE);
     }
 
     /* call func_1 from whichever library was loaded */
-    func_1p();
+    func_1();
 
     /* call func_2 from whichever library was loaded */
-    func_2p();
+    func_2();
 
     dlclose(handle);
     return 0;
