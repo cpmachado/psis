@@ -10,6 +10,10 @@ On versoning:
 - Major version: Finish the semester at v1.0.0.
 
 ## [Unreleased]
+## [0.2.1] - 2021-04-03
+- week2/README.md
+  + Fix incomplete dependency graph
+
 ## [0.2.0] - 2021-04-03
 ### Fixed
 - week1/lab0.c
@@ -73,8 +77,9 @@ On versoning:
 - README
 
 
-[Unreleased]: https://github.com/cpmachado/psis/compare/v0.2.0...HEAD
-[0.2.0]: https://github.com/cpmachado/psis/compare/v0.1.0...v0.2.0
+[Unreleased]: https://github.com/cpmachado/psis/compare/v0.2.1...HEAD
+[0.2.1]: https://github.com/cpmachado/psis/compare/v0.2.0...v0.2.1
+[0.2.0]: https://github.com/cpmachado/psis/compare/v0.1.1...v0.2.0
 [0.1.1]: https://github.com/cpmachado/psis/compare/v0.1.0...v0.1.1
 [0.1.0]: https://github.com/cpmachado/psis/compare/v0.0.0...v0.1.0
 [0.0.0]: https://github.com/cpmachado/psis/releases/tag/v0.0.0

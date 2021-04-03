@@ -15,3 +15,11 @@
   + lib1.c
   + lib2.c
   + prog2.c
+- Exercise VI
+  + include/randarray.h
+  + ex6.c
+  + libSingleStep.c
+- Exercise VII
+  + include/randarray.h
+  + ex7.c
+  + libMultiStep.c
