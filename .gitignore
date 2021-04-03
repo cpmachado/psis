@@ -1,3 +1,9 @@
+# folder that I put the official resources in
+res
+
+# binaries
+lab0
+
 # Created by https://www.toptal.com/developers/gitignore/api/c,c++
 # Edit at https://www.toptal.com/developers/gitignore?templates=c,c++
 
