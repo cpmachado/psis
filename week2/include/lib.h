@@ -4,7 +4,7 @@
 #ifndef WEEK2_INCLUDE_LIB_H_
 #define WEEK2_INCLUDE_LIB_H_
 
-/* FUNCTION DEFINITIONS */
+/* FUNCTION DECLARATIONS */
 
 /* func_1: a function within lib */
 void func_1();

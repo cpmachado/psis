@@ -4,7 +4,7 @@
 #ifndef WEEK2_INCLUDE_RANDARRAY_H_
 #define WEEK2_INCLUDE_RANDARRAY_H_
 
-/* FUNCTION DEFINITIONS */
+/* FUNCTION DECLARATIONS */
 
 /* randArrayLong: Generate an array of a given length with random integers */
 long* randArrayLong(long len, long topLimit);

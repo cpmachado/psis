@@ -6,7 +6,7 @@
 #include <time.h>
 
 
-/* FUNCTION DEFINITIONS */
+/* FUNCTION DECLARATIONS */
 
 long*
 randArrayLong(long len, long topLimit) {

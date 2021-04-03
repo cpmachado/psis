@@ -5,7 +5,7 @@
 #include <stdio.h>
 
 
-/* FUNCTION IMPLEMENTATIONS */
+/* FUNCTION DEFINITIONS */
 
 void func_1() {
     printf("func 1 inside lib1\n");

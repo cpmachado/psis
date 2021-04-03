@@ -6,7 +6,7 @@
 #include <stdlib.h>
 
 
-/* FUNCTION DEFINITIONS */
+/* FUNCTION DECLARATIONS */
 
 /* concatArgs: Allocates a buffer with all strings concatenated */
 char* concatArgs(int n, char *strs[]);
@@ -15,7 +15,7 @@ char* concatArgs(int n, char *strs[]);
 unsigned long lenstr(char *s);
 
 
-/* FUNCTION IMPLEMENTATIONS */
+/* FUNCTION DEFINITIONS */
 
 int
 main(int argc, char* argv[]) {

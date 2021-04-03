@@ -7,13 +7,13 @@
 #include <string.h>
 
 
-/* FUNCTION DEFINITIONS */
+/* FUNCTION DECLARATIONS */
 
 /* concatArgs: Allocates a buffer with all strings concatenated */
 char* concatArgs(int n, char *strs[]);
 
 
-/* FUNCTION IMPLEMENTATIONS */
+/* FUNCTION DEFINITIONS */
 
 int
 main(int argc, char* argv[]) {

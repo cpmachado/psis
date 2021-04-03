@@ -6,7 +6,7 @@
 #include <stdlib.h>
 
 
-/* FUNCTION IMPLEMENTATIONS */
+/* FUNCTION DEFINITIONS */
 int
 main(void) {
     char line[100];

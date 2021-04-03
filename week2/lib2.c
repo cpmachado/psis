@@ -5,7 +5,7 @@
 #include <stdio.h>
 
 
-/* FUNCTION IMPLEMENTATIONS */
+/* FUNCTION DEFINITIONS */
 
 void func_1() {
     printf("Better version of func 1\n");

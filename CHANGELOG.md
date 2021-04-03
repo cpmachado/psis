@@ -14,6 +14,7 @@ On versoning:
 - week1/lab0.c
   + Fixed error printing
   + Removed unused math.h
+- DECLARATION/DEFINITION convention in comments
 
 ### Added
 - CPPLINT.cfg

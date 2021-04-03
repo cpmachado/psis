@@ -5,7 +5,7 @@
 #include "include/lib.h"
 
 
-/* FUNCTION IMPLEMENTATIONS */
+/* FUNCTION DEFINITIONS */
 
 int main(void) {
     func_1();

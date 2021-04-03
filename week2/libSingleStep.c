@@ -7,7 +7,7 @@
 #include "include/randarray.h"
 
 
-/* FUNCTION IMPLEMENTATIONS */
+/* FUNCTION DEFINITIONS */
 
 void
 printDivisible(long len, long* array) {

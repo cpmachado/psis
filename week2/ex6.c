@@ -13,7 +13,7 @@
 #define LIBRARY_NAME "./libSingleStep.so"
 
 
-/* FUNCTION IMPLEMENTATIONS */
+/* FUNCTION DEFINITIONS */
 
 int
 main(void) {
