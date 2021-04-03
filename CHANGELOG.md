@@ -23,6 +23,7 @@ On versoning:
   + include/lib.h
   + prog1.c
   + lib1.c
+  + README.md
 
 ### Changed
 - .gitignore
