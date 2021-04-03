@@ -13,6 +13,7 @@ On versoning:
 ### Fixed
 - week1/lab0.c
   + Fixed error printing
+  + Removed unused math.h
 
 ### Added
 - CPPLINT.cfg
