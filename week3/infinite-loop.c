@@ -19,6 +19,7 @@ main(void) {
 
     printf("vector initialized\n");
 
+    free(v);
     return 0;
 }
 
