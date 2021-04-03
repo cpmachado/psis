@@ -15,6 +15,7 @@ On versoning:
   + Fixed error printing
   + Removed unused math.h
 - DECLARATION/DEFINITION convention in comments
+  + All legacy source and header file
 
 ### Added
 - CPPLINT.cfg
@@ -24,10 +25,12 @@ On versoning:
   + ex1.c
   + ex2.c
   + ex6.c
+  + ex7.c
   + include/lib.h
   + include/randarray.h
   + lib1.c
   + lib2.c
+  + libMultiStep.c
   + libSingleStep.c
   + prog1.c
   + prog2.c

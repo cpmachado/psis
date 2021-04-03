@@ -13,7 +13,8 @@ BIN =\
 	ex2\
 	prog1\
 	prog2\
-	ex6
+	ex6\
+	ex7
 
 
 all: ${BIN}
@@ -41,5 +42,7 @@ randarray.o: randarray.c
 ex6: ex6.o randarray.o libSingleStep.so
 
 
+libMultiStep.so: libMultiStep.o
+ex7: ex7.o randarray.o libMultiStep.so
 
 -include ${DEP}
