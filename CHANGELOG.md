@@ -14,13 +14,19 @@ On versoning:
 - CPPLINT.cfg
 - week2
   + Makefile
-  + ex1
-  + ex2
+  + ex1.c
+  + ex2.c
+  + include/lib.h
+  + prog1.c
+  + lib1.c
 
 ### Changed
 - .gitignore
   + Ignore week2/ex1
   + Ignore week2/ex2
+  + Ignore week2/prog1
+- config.mk
+  + Removed -I./include from INC variable
 
 ## [0.1.1] - 2021-04-03
 ### Fixed
