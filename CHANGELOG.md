@@ -18,12 +18,14 @@ On versoning:
 - CPPLINT.cfg
 - week2
   + Makefile
+  + README.md
   + ex1.c
   + ex2.c
   + include/lib.h
-  + prog1.c
   + lib1.c
-  + README.md
+  + lib2.c
+  + prog1.c
+  + prog2.c
 
 ### Changed
 - .gitignore
@@ -32,6 +34,7 @@ On versoning:
   + Ignore week2/prog1
 - config.mk
   + Removed -I./include from INC variable
+  + Added recipe for .so files
 
 
 ## [0.1.1] - 2021-04-03

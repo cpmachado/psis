@@ -5,12 +5,14 @@ include ../config.mk
 
 HDR = ${wildcard include/*.h}
 SRC = ${wildcard *.c}
-OBJ = ${SRC:.c=.o}
+SRC_LIB = ${wildcard lib*.c}
+OBJ = ${SRC:.c=.o} ${SRC_LIB:.c=.so}
 DEP = ${SRC:.c=.d}
 BIN =\
 	ex1\
 	ex2\
-	prog1
+	prog1\
+	prog2
 
 
 all: ${BIN}
@@ -28,6 +30,10 @@ lint:
 ex1: ex1.o
 ex2: ex2.o
 prog1: prog1.o lib1.o
+
+lib1.so: lib1.o
+lib2.so: lib2.o
+prog2: prog2.o lib1.so lib2.so
 
 
 -include ${DEP}

@@ -15,3 +15,5 @@ LDFLAGS =
 %.a:
 	ar rcs $@ $^
 
+%.so:
+	gcc -o $@ $^ -ldl -shared -fPIC
