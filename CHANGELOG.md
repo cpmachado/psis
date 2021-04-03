@@ -31,5 +31,6 @@ On versoning:
 - README
 
 
-[Unreleased]: https://github.com/cpmachado/psis/compare/v0.0.0...HEAD
+[Unreleased]: https://github.com/cpmachado/psis/compare/v0.1.0...HEAD
+[0.1.0]: https://github.com/cpmachado/psis/compare/v0.0.0...v0.1.0
 [0.0.0]: https://github.com/cpmachado/psis/releases/tag/v0.0.0
