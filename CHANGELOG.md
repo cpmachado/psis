@@ -10,6 +10,14 @@ On versoning:
 - Major version: Finish the semester at v1.0.0.
 
 ## [Unreleased]
+### Added
+- week2
+  + Makefile
+  + ex1
+
+### Changed
+- .gitignore
+  + Ignore week2/ex1
 
 ## [0.1.1] - 2021-04-03
 ### Fixed
