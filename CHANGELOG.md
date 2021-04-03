@@ -22,11 +22,15 @@ On versoning:
   + README.md
   + ex1.c
   + ex2.c
+  + ex6.c
   + include/lib.h
+  + include/randarray.h
   + lib1.c
   + lib2.c
+  + libSingleStep.c
   + prog1.c
   + prog2.c
+  + randarray.c
 
 ### Changed
 - .gitignore
