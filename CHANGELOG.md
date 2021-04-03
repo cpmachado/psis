@@ -23,6 +23,7 @@ On versoning:
   + README.md
   + Makefile
   + infinite-loop.c
+  + char-conv.c
 
 
 ## [0.2.1] - 2021-04-03
