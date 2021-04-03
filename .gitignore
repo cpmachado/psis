@@ -1,6 +1,9 @@
 # folder that I put the official resources in
 res
 
+# Mac DS_STORE
+.DS_STORE
+
 # binaries
 lab0
 

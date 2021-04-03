@@ -7,7 +7,7 @@
 #include <stdlib.h>
 
 
-/* FUNCTION IMPLEMENTATION */
+/* FUNCTION IMPLEMENTATIONS */
 int
 main(void) {
     char line[100];
@@ -21,8 +21,9 @@ main(void) {
 
     if (sscanf(line, "%d", &n) != 1) {
         printf("invalid Number\n");
-        exit(-1);
+        exit(EXIT_FAILURE);
     }
+
     srandom(n);
     printf("your own random number: %ld\n", random());
 

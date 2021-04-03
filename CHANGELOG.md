@@ -11,6 +11,12 @@ On versoning:
 
 ## [Unreleased]
 
+## [0.1.1] - 2021-04-03
+### Fixed
+- .gitignore
+  + Ignore .DS_STORE
+- week1/lab0.c
+  + Correct magic number to EXIT_FAILURE
 
 ## [0.1.0] - 2021-04-03
 ### Added
@@ -31,6 +37,7 @@ On versoning:
 - README
 
 
-[Unreleased]: https://github.com/cpmachado/psis/compare/v0.1.0...HEAD
+[Unreleased]: https://github.com/cpmachado/psis/compare/v0.1.1...HEAD
+[0.1.1]: https://github.com/cpmachado/psis/compare/v0.1.0...v0.1.1
 [0.1.0]: https://github.com/cpmachado/psis/compare/v0.0.0...v0.1.0
 [0.0.0]: https://github.com/cpmachado/psis/releases/tag/v0.0.0
