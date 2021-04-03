@@ -71,5 +71,6 @@ int main() {
     /* call func_2 from whichever library was loaded */
     func_2p();
 
+    dlclose(handle);
     return 0;
 }
