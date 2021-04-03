@@ -7,10 +7,12 @@
 
 /* FUNCTION DEFINITIONS */
 
-void func_1() {
+void
+func_1(void) {
     printf("Better version of func 1\n");
 }
 
-void func_2() {
+void
+func_2(void) {
     printf("Better version of func 2\n");
 }

@@ -7,10 +7,12 @@
 
 /* FUNCTION DEFINITIONS */
 
-void func_1() {
+void
+func_1(void) {
     printf("func 1 inside lib1\n");
 }
 
-void func_2() {
+void
+func_2(void) {
     printf("func 2 inside lib2\n");
 }

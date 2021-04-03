@@ -10,6 +10,13 @@ On versoning:
 - Major version: Finish the semester at v1.0.0.
 
 ## [Unreleased]
+### Fixed
+- week2: Function Definition header, not consistent
+  + lib1.c
+  + lib2.c
+  + prog1.c
+  + prog2.c
+
 ## [0.2.1] - 2021-04-03
 - week2/README.md
   + Fix incomplete dependency graph

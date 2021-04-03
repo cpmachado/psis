@@ -12,7 +12,8 @@
 
 /* FUNCTION DEFINITIONS */
 
-int main() {
+int
+main(void) {
     int a;
     char line[100];
     char library_name[100];

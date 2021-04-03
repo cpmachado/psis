@@ -7,7 +7,8 @@
 
 /* FUNCTION DEFINITIONS */
 
-int main(void) {
+int
+main(void) {
     func_1();
     func_2();
     return 0;
