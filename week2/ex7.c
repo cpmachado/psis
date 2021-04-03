@@ -11,13 +11,15 @@
 
 /* MACROS */
 #define LIBRARY_NAME "./libMultiStep.so"
+#define ARRAY_LEN 100
+#define ARRAY_RANGE 200
 
 
 /* FUNCTION DEFINITIONS */
 
 int
 main(void) {
-    long *array = randArrayLong(100, 200);
+    long *array = randArrayLong(ARRAY_LEN, ARRAY_RANGE);
 
     if (!array) {
         fprintf(stderr, "main: Failed to allocate array\n");
@@ -44,7 +46,7 @@ main(void) {
     }
 
     /* run it */
-    printDivisible(100, array);
+    printDivisible(ARRAY_LEN, array);
 
     free(array);
     dlclose(handle);
