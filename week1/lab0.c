@@ -15,12 +15,12 @@ main(void) {
 
     printf("Student number: ");
     if (!fgets(line, 100, stdin)) {
-        printf("Failed to read number\n");
+        fprintf(stderr, "Failed to read number\n");
         exit(EXIT_FAILURE);
     }
 
     if (sscanf(line, "%d", &n) != 1) {
-        printf("invalid Number\n");
+        fprintf(stderr, "Invalid Number\n");
         exit(EXIT_FAILURE);
     }
 

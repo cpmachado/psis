@@ -10,6 +10,10 @@ On versoning:
 - Major version: Finish the semester at v1.0.0.
 
 ## [Unreleased]
+### Fixed
+- week1/lab0.c
+  + Fixed error printing
+
 ### Added
 - CPPLINT.cfg
 - week2
@@ -27,6 +31,7 @@ On versoning:
   + Ignore week2/prog1
 - config.mk
   + Removed -I./include from INC variable
+
 
 ## [0.1.1] - 2021-04-03
 ### Fixed
