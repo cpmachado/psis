@@ -10,6 +10,7 @@ On versoning:
 - Major version: Finish the semester at v1.0.0.
 
 ## [Unreleased]
+
 ### Fixed
 - week2: Function Definition header, not consistent
   + lib1.c
@@ -17,11 +18,22 @@ On versoning:
   + prog1.c
   + prog2.c
 
+### Added
+- week3
+  + README.md
+  + Makefile
+  + infinite-loop.c
+
+
 ## [0.2.1] - 2021-04-03
+
+### Fixed
 - week2/README.md
   + Fix incomplete dependency graph
 
+
 ## [0.2.0] - 2021-04-03
+
 ### Fixed
 - week1/lab0.c
   + Fixed error printing
@@ -59,13 +71,16 @@ On versoning:
 
 
 ## [0.1.1] - 2021-04-03
+
 ### Fixed
 - .gitignore
   + Ignore .DS_STORE
 - week1/lab0.c
   + Correct magic number to EXIT_FAILURE
 
+
 ## [0.1.0] - 2021-04-03
+
 ### Added
 - CHANGELOG
 - config.mk
@@ -76,7 +91,9 @@ On versoning:
   + Ignore binary regarding week1.
   + Ignore a folder where resources are stored.
 
+
 ## [0.0.0] - 2021-03-27
+
 ### Added
 - .editorconfig
 - .gitignore
