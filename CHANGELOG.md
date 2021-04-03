@@ -11,13 +11,16 @@ On versoning:
 
 ## [Unreleased]
 ### Added
+- CPPLINT.cfg
 - week2
   + Makefile
   + ex1
+  + ex2
 
 ### Changed
 - .gitignore
   + Ignore week2/ex1
+  + Ignore week2/ex2
 
 ## [0.1.1] - 2021-04-03
 ### Fixed
