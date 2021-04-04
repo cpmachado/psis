@@ -2,24 +2,33 @@
 
 - Exercise I
   + ex1.c
+
 - Exercise II
   + ex2.c
+
 - Exercise III
   + include/lib.h
   + lib1.c
   + prog1.c
+
 - Exercise IV
   + Didn't do it, as I don't use VS Code
+
 - Exercise V
   + include/lib.h
   + lib1.c
   + lib2.c
   + prog2.c
+
 - Exercise VI
   + include/randarray.h
+  + randarray.c
   + ex6.c
   + libSingleStep.c
+
+
 - Exercise VII
   + include/randarray.h
+  + randarray.c
   + ex7.c
   + libMultiStep.c
