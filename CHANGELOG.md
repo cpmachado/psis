@@ -17,6 +17,8 @@ On versoning:
   + lib2.c
   + prog1.c
   + prog2.c
+- week2:
+  + README.md
 
 ### Added
 - week3
@@ -24,6 +26,13 @@ On versoning:
   + Makefile
   + infinite-loop.c
   + char-conv.c
+  + producer
+  + consumer
+
+- week3(copy from week2)
+  + include/randarray.h
+  + libSingleStep.c
+  + randarray.c
 
 
 ## [0.2.1] - 2021-04-03
