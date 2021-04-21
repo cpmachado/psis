@@ -2,7 +2,7 @@
 # configuration of system
 
 # Compiler options
-CC       = gcc
+CC      ?= gcc
 INC     += -I. -I/usr/include
 CFLAGS  += -W -Wall -Werror -std=c99 -pedantic -Wno-unused-result ${INC}
 CPPFLAGS =\

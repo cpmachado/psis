@@ -3,10 +3,32 @@ name: Build CI
 on: [push, pull_request]
 
 jobs:
-  build:
-
+  lint:
     runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: install cpplint
+      run: pip install cpplint
+    - name: run linter
+      run: make lint
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: build
+      run: make
 
+  lint-mac:
+    runs-on: macos-11.0
+    steps:
+    - uses: actions/checkout@v2
+    - name: install cpplint
+      run: pip install cpplint
+    - name: run linter
+      run: make lint
+
+  build-mac:
+    runs-on: macos-11.0
     steps:
     - uses: actions/checkout@v2
     - name: build
