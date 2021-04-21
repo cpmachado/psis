@@ -5,6 +5,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+
 /* FUCTION DECLARATIONS */
 
 /* sumlen: sum of the length of all strings */
@@ -21,6 +22,7 @@ char* concatstr(char *d, char *s);
 
 
 /* FUNCTION DEFINITIONS */
+
 int
 main(int argc, char* argv[]) {
     char *result_str = combinestrs(argc, argv);
@@ -35,6 +37,7 @@ main(int argc, char* argv[]) {
     return 0;
 }
 
+
 unsigned long
 sumlen(int n, char* strs[]) {
     int i;
@@ -46,6 +49,7 @@ sumlen(int n, char* strs[]) {
 
     return sum;
 }
+
 
 char*
 combinestrs(int n, char* strs[]) {
@@ -67,6 +71,7 @@ combinestrs(int n, char* strs[]) {
     return s;
 }
 
+
 unsigned long
 lenstr(char *s) {
     unsigned long len = 0;
@@ -78,6 +83,7 @@ lenstr(char *s) {
 
     return len;
 }
+
 
 char*
 concatstr(char *d, char *s) {
@@ -92,3 +98,4 @@ concatstr(char *d, char *s) {
 
     return base;
 }
+

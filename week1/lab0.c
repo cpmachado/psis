@@ -7,6 +7,7 @@
 
 
 /* FUNCTION DEFINITIONS */
+
 int
 main(void) {
     char line[100];

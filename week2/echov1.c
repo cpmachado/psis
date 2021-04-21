@@ -6,15 +6,19 @@
 #include <stdlib.h>
 #include <string.h>
 
+
 /* FUCTION DECLARATIONS */
 
 /* sumlen: sum of the length of all strings */
 unsigned long sumlen(int n, char* strs[]);
 
+
 /* combinestrs: aggregate all strings in a single allocated buffer */
 char* combinestrs(int n, char* strs[]);
 
+
 /* FUNCTION DEFINITIONS */
+
 int
 main(int argc, char* argv[]) {
     char *result_str = combinestrs(argc, argv);
@@ -29,6 +33,7 @@ main(int argc, char* argv[]) {
     return 0;
 }
 
+
 unsigned long
 sumlen(int n, char* strs[]) {
     int i;
@@ -40,6 +45,7 @@ sumlen(int n, char* strs[]) {
 
     return sum;
 }
+
 
 char*
 combinestrs(int n, char* strs[]) {
@@ -60,3 +66,4 @@ combinestrs(int n, char* strs[]) {
 
     return s;
 }
+
