@@ -2,8 +2,6 @@
 
 [![Build
 CI](https://github.com/cpmachado/psis/actions/workflows/build.yml/badge.svg)](https://github.com/cpmachado/psis/actions/workflows/build.yml)
-[![Lint
-CI](https://github.com/cpmachado/psis/actions/workflows/lint.yml/badge.svg)](https://github.com/cpmachado/psis/actions/workflows/lint.yml)
 
 My work through PSIS(Programação de SIStemas) @ IST-UL, 2nd semester
 2020/2021.
