@@ -19,17 +19,17 @@ jobs:
       run: make
 
   lint-mac:
-    runs-on: macos-11.0
+    runs-on: macos-latest
     steps:
     - uses: actions/checkout@v2
     - name: install cpplint
-      run: pip install cpplint
+      run: pip3 install cpplint
     - name: run linter
       run: make lint
 
   build-mac:
-    runs-on: macos-11.0
+    runs-on: macos-latest
     steps:
     - uses: actions/checkout@v2
     - name: build
-      run: make
+      run: make CC=gcc-10
