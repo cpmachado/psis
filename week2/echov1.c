@@ -17,15 +17,15 @@ char* combinestrs(int n, char* strs[]);
 /* FUNCTION DEFINITIONS */
 int
 main(int argc, char* argv[]) {
-    char *s = combinestrs(argc, argv);
+    char *result_str = combinestrs(argc, argv);
 
-    if (!s) {
+    if (!result_str) {
         exit(EXIT_FAILURE);
     }
 
-    printf("%s\n", s);
+    printf("%s\n", result_str);
 
-    free(s);
+    free(result_str);
     return 0;
 }
 
