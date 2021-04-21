@@ -7,7 +7,8 @@ SRC = ${wildcard *.c}
 OBJ = ${SRC:.c=.o}
 DEP = ${SRC:.c=.d}
 BIN =\
-	echov1
+	echov1\
+	echov2
 
 
 all: ${BIN}
@@ -23,6 +24,7 @@ lint:
 # recipes for binaries
 
 echov1: echov1.o
+echov2: echov2.o
 
 
 -include ${DEP}
