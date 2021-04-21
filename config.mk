@@ -6,7 +6,9 @@ CC       = gcc
 INC     += -I. -I/usr/include
 CFLAGS  += -W -Wall -Werror -std=c99 -pedantic -Wno-unused-result ${INC}
 CPPFLAGS =\
-	-D_POSIX_C_SOURCE=200809L
+	-D_POSIX_C_SOURCE=200809L\
+	-D_XOPEN_SOURCE=700
+
 OUTPUT_OPTION = -MMD -MP
 LDFLAGS =
 
