@@ -11,7 +11,7 @@ main(void) {
     int v[100];
     int i;
 
-    for (i = 0; i < 100; i += 1) {
+    for (i = 0; i < 100; i++) {
         v[i] = random();
     }
 
