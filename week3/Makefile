@@ -14,7 +14,8 @@ BIN =\
 	consumerv1\
 	producerv2\
 	consumerv2\
-	char-conv-prob
+	char-conv-prob\
+	char-conv-uninit
 
 
 all: ${BIN}
@@ -40,5 +41,7 @@ producerv2: producerv2.o libra.a
 consumerv2: consumerv2.o libra.a
 
 char-conv-prob: char-conv-prob.o
+
+char-conv-uninit: char-conv-uninit.o
 
 -include ${DEP}

@@ -24,6 +24,7 @@ consumerv1
 producerv2
 consumerv2
 char-conv-prob
+char-conv-uninit
 
 
 # Created by https://www.toptal.com/developers/gitignore/api/c,c++
