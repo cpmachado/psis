@@ -22,9 +22,8 @@ main(void) {
     int i;
     long int t;
 
-
+    t = random() % 10 + 1;
     for (i = 0; i < N_CHILDREN; i++) {
-        t = random() % 10 + 1;
         if ((pid = fork()) < 0) {
             fprintf(stderr, "Error calling fork\n");
             exit(EXIT_FAILURE);
