@@ -11,7 +11,8 @@ BIN =\
 	echov1\
 	echov2\
 	prog1\
-	prog2
+	prog2\
+	primediv
 
 
 all: ${BIN}
@@ -35,6 +36,11 @@ lib2.so: lib2.o
 prog2: prog2.o lib1.so lib2.so
 	${CC} -o $@ $< -ldl
 
+
+libss.so: libss.o
+libms.so: libms.o
+primediv: primediv.o libra.o libss.so libms.so
+	${CC} -o $@ primediv.o libra.o -ldl
 
 
 -include ${DEP}
