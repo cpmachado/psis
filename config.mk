@@ -4,7 +4,7 @@
 # Compiler options
 CC      ?= gcc
 INC     += -I. -I/usr/include
-CFLAGS  += -W -Wall -Werror -std=c99 -pedantic -Wno-unused-result ${INC}
+CFLAGS  += -W -Wall -Werror -std=c99 -Wno-unused-result ${INC}
 CPPFLAGS =\
 	-D_POSIX_C_SOURCE=200809L\
 	-D_XOPEN_SOURCE=700
@@ -18,4 +18,4 @@ LDFLAGS =
 	ar rcs $@ $^
 
 %.so:
-	gcc -o $@ $^ -ldl -shared -fPIC
+	${CC} -o $@ $^ -ldl -shared -fPIC
