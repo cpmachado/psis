@@ -29,6 +29,7 @@ char-conv-uninit
 # week4
 cat-fork
 rand-parent
+rand-parentv2
 
 
 # Created by https://www.toptal.com/developers/gitignore/api/c,c++

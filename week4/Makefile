@@ -8,7 +8,8 @@ OBJ = ${SRC:.c=.o}
 DEP = ${SRC:.c=.d}
 BIN =\
 	cat-fork\
-	rand-parent
+	rand-parent\
+	rand-parentv2
 
 
 all: ${BIN}
@@ -25,6 +26,7 @@ lint:
 
 cat-fork: cat-fork.o
 rand-parent: rand-parent.o
+rand-parentv2: rand-parentv2.o
 
 
 -include ${DEP}
