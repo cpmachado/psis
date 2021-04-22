@@ -13,7 +13,8 @@ BIN =\
 	producerv1\
 	consumerv1\
 	producerv2\
-	consumerv2
+	consumerv2\
+	char-conv-prob
 
 
 all: ${BIN}
@@ -37,5 +38,7 @@ consumerv1: consumerv1.o libra.a
 
 producerv2: producerv2.o libra.a
 consumerv2: consumerv2.o libra.a
+
+char-conv-prob: char-conv-prob.o
 
 -include ${DEP}

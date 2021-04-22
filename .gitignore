@@ -23,6 +23,7 @@ producerv1
 consumerv1
 producerv2
 consumerv2
+char-conv-prob
 
 
 # Created by https://www.toptal.com/developers/gitignore/api/c,c++
