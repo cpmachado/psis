@@ -9,3 +9,7 @@ List:
   - [include/lib.h](include/lib.h)
   - [lib1.c](lib1.c)
 4. I don't like stupid editor/IDE extensions. There's make to do that.
+5. [prog2.c](prog2.c)
+  - [include/lib.h](include/lib.h)
+  - [lib1.c](lib1.c)
+  - [lib2.c](lib2.c)

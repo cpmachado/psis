@@ -10,7 +10,8 @@ DEP = ${SRC:.c=.d}
 BIN =\
 	echov1\
 	echov2\
-	prog1
+	prog1\
+	prog2
 
 
 all: ${BIN}
@@ -18,7 +19,7 @@ all: ${BIN}
 
 clean:
 	@echo cleaning
-	@rm -rf ${OBJ} ${DEP} ${BIN} *.tar.gz
+	@rm -rf ${OBJ} ${DEP} ${BIN} *.so *.tar.gz
 
 lint:
 	cpplint ${SRC} ${HDR}
@@ -28,6 +29,12 @@ lint:
 echov1: echov1.o
 echov2: echov2.o
 prog1: prog1.o lib1.o
+
+lib1.so: lib1.o
+lib2.so: lib2.o
+prog2: prog2.o lib1.so lib2.so
+	${CC} -o $@ $< -ldl
+
 
 
 -include ${DEP}
