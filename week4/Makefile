@@ -7,7 +7,8 @@ SRC = ${wildcard *.c}
 OBJ = ${SRC:.c=.o}
 DEP = ${SRC:.c=.d}
 BIN =\
-	cat-fork
+	cat-fork\
+	rand-parent
 
 
 all: ${BIN}
@@ -23,6 +24,7 @@ lint:
 # recipes for binaries
 
 cat-fork: cat-fork.o
+rand-parent: rand-parent.o
 
 
 -include ${DEP}
