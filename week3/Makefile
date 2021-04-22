@@ -8,7 +8,8 @@ SRC = ${wildcard *.c}
 OBJ = ${SRC:.c=.o}
 DEP = ${SRC:.c=.d}
 BIN =\
-	infinite-loop
+	infinite-loop\
+	char-conv
 
 
 all: ${BIN}
@@ -24,6 +25,7 @@ lint:
 # recipes for binaries
 
 infinite-loop: infinite-loop.o
+char-conv: char-conv.o
 
 
 -include ${DEP}
