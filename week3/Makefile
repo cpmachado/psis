@@ -11,7 +11,9 @@ BIN =\
 	infinite-loop\
 	char-conv\
 	producerv1\
-	consumerv1
+	consumerv1\
+	producerv2\
+	consumerv2
 
 
 all: ${BIN}
@@ -32,5 +34,8 @@ char-conv: char-conv.o
 libra.a: libss.o libra.o
 producerv1: producerv1.o libra.a
 consumerv1: consumerv1.o libra.a
+
+producerv2: producerv2.o libra.a
+consumerv2: consumerv2.o libra.a
 
 -include ${DEP}
