@@ -9,7 +9,8 @@ DEP = ${SRC:.c=.d}
 BIN =\
 	cat-fork\
 	rand-parent\
-	rand-parentv2
+	rand-parentv2\
+	primediv
 
 
 all: ${BIN}
@@ -28,5 +29,6 @@ cat-fork: cat-fork.o
 rand-parent: rand-parent.o
 rand-parentv2: rand-parentv2.o
 
+primediv: primediv.o libra.o
 
 -include ${DEP}
