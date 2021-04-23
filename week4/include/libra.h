@@ -9,8 +9,8 @@
  * - print divisible numbers according to divisors
  */
 
-#ifndef WEEK3_INCLUDE_LIBRA_H_
-#define WEEK3_INCLUDE_LIBRA_H_
+#ifndef WEEK4_INCLUDE_LIBRA_H_
+#define WEEK4_INCLUDE_LIBRA_H_
 
 /* FUCTION DECLARATIONS */
 
@@ -26,4 +26,4 @@ unsigned long* randArrayULong(unsigned long len, unsigned long limit);
  */
 void printDivisible(unsigned long len, unsigned long *array);
 
-#endif /* WEEK3_INCLUDE_LIBRA_H_ */
+#endif /* WEEK4_INCLUDE_LIBRA_H_ */
