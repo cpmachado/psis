@@ -11,4 +11,12 @@ List:
     + [include/libra.h](include/libra.h)
     + [include/libra\_divisors.h](include/libra_divisors.h)
     + [libra.c](libra.c)
+5. [mainEV.c](mainEV.c)
+  - [workerEV.c](workerEV.c)
+  - [include/constantsEV.h](include/constantsEV.h)
+  - from week2
+    + [include/libra.h](include/libra.h)
+    + [include/libra\_divisors.h](include/libra_divisors.h)
+    + [libra.c](libra.c)
+
 

@@ -30,6 +30,8 @@ char-conv-uninit
 cat-fork
 rand-parent
 rand-parentv2
+mainEV
+workerEV
 
 
 # Created by https://www.toptal.com/developers/gitignore/api/c,c++

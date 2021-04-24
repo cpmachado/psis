@@ -10,7 +10,7 @@ CPPFLAGS =\
 	-D_XOPEN_SOURCE=700
 
 OUTPUT_OPTION = -MMD -MP
-LDFLAGS =
+LDFLAGS = -ldl
 
 
 # archive static library
@@ -18,4 +18,6 @@ LDFLAGS =
 	ar rcs $@ $^
 
 %.so:
-	${CC} -o $@ $^ -ldl -shared -fPIC
+	${CC} -o $@ $^ ${LDFLAGS} -shared -fPIC
+
+

@@ -11,7 +11,9 @@ BIN =\
 	cat-fork\
 	rand-parent\
 	rand-parentv2\
-	primediv
+	primediv\
+	mainEV\
+	workerEV
 
 
 all: ${BIN}
@@ -31,5 +33,8 @@ rand-parent: rand-parent.o
 rand-parentv2: rand-parentv2.o
 
 primediv: primediv.o libra.o
+
+mainEV: mainEV.o libra.o
+workerEV: workerEV.o
 
 -include ${DEP}
