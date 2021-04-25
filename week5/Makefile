@@ -9,7 +9,8 @@ OBJ = ${SRC:.c=.o}
 DEP = ${SRC:.c=.d}
 BIN =\
 	sprintinc\
-	ten
+	ten\
+	tenv2
 
 
 all: ${BIN}
@@ -27,5 +28,6 @@ lint:
 
 sprintinc: sprintinc.o
 ten: ten.o
+tenv2: tenv2.o
 
 -include ${DEP}
