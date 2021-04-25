@@ -48,9 +48,12 @@ main(void) {
 void*
 pidTidThread(void* data) {
     unsigned long t = *(unsigned long*)data;
+    pid_t pid = getpid();
+    pthread_t tid = pthread_self();
+
 
     sleep(t);
-    printf("pid: %d, tid: %lu, t: %lu\n", getpid(), pthread_self(), t);
+    printf("pid: %d, tid: %lu, t: %lu\n", pid, (unsigned long)tid, t);
 
     return NULL;
 }
