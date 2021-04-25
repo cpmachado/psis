@@ -6,7 +6,6 @@
 #include <stdlib.h>
 #include <fcntl.h>
 #include <unistd.h>
-#include <pthread.h>
 
 #include "include/libra.h"
 #include "include/constantsEV.h"
