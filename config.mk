@@ -10,7 +10,7 @@ CPPFLAGS =\
 	-D_XOPEN_SOURCE=700
 
 OUTPUT_OPTION = -MMD -MP
-LDFLAGS = -ldl
+LDFLAGS = -ldl -pthread
 
 
 # archive static library
