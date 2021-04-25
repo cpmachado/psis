@@ -8,7 +8,8 @@ SRC = ${wildcard *.c}
 OBJ = ${SRC:.c=.o}
 DEP = ${SRC:.c=.d}
 BIN =\
-	sprintinc
+	sprintinc\
+	ten
 
 
 all: ${BIN}
@@ -25,5 +26,6 @@ lint:
 # recipes for binaries
 
 sprintinc: sprintinc.o
+ten: ten.o
 
 -include ${DEP}
