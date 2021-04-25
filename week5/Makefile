@@ -10,7 +10,8 @@ DEP = ${SRC:.c=.d}
 BIN =\
 	sprintinc\
 	ten\
-	tenv2
+	tenv2\
+	primediv
 
 
 all: ${BIN}
@@ -29,5 +30,7 @@ lint:
 sprintinc: sprintinc.o
 ten: ten.o
 tenv2: tenv2.o
+
+primediv: primediv.o libra.o
 
 -include ${DEP}
