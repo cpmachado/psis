@@ -11,7 +11,9 @@ BIN =\
 	sprintinc\
 	ten\
 	tenv2\
-	primediv
+	primediv\
+	mainEVI\
+	workerEVI
 
 
 all: ${BIN}
@@ -33,4 +35,6 @@ tenv2: tenv2.o
 
 primediv: primediv.o libra.o
 
+mainEVI: mainEVI.o libra.o
+workerEVI: workerEVI.o
 -include ${DEP}

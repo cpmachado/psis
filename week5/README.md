@@ -12,3 +12,10 @@ List:
     + [include/libra\_divisors.h](include/libra_divisors.h)
     + [libra.c](libra.c)
 5. Done in exercise IV
+6. [mainEVI.c](mainEVI.c)
+  - [workerEVI.c](workerEVI.c)
+  - [include/constantsEVI.h](include/constantsEVI.h)
+  - from week2
+    + [include/libra.h](include/libra.h)
+    + [include/libra\_divisors.h](include/libra_divisors.h)
+    + [libra.c](libra.c)

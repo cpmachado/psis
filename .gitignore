@@ -37,6 +37,8 @@ workerEV
 sprintinc
 ten
 tenv2
+mainEVI
+workerEVI
 
 # Created by https://www.toptal.com/developers/gitignore/api/c,c++
 # Edit at https://www.toptal.com/developers/gitignore?templates=c,c++
