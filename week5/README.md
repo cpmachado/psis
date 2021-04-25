@@ -11,3 +11,4 @@ List:
     + [include/libra.h](include/libra.h)
     + [include/libra\_divisors.h](include/libra_divisors.h)
     + [libra.c](libra.c)
+5. Done in exercise IV
