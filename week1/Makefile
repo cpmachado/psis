@@ -18,7 +18,7 @@ clean:
 	@rm -rf ${OBJ} ${DEP} ${BIN} *.tar.gz
 
 lint:
-	cpplint ${SRC}
+	cpplint --recursive .
 
 # recipes for binaries
 

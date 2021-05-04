@@ -3,7 +3,6 @@
 
 include ../config.mk
 
-HDR = ${wildcard include/*.h}
 SRC = ${wildcard *.c}
 OBJ = ${SRC:.c=.o}
 DEP = ${SRC:.c=.d}
@@ -23,7 +22,7 @@ clean:
 	@rm -rf ${OBJ} ${DEP} ${BIN} *.so *.tar.gz
 
 lint:
-	cpplint ${SRC} ${HDR}
+	cpplint --recursive .
 
 # recipes for binaries
 
