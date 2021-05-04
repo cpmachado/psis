@@ -1,4 +1,3 @@
-/* Copyright 2021 Carlos Pinto Machado */
 /* See LICENSE for details */
 
 /* HEADERS */
